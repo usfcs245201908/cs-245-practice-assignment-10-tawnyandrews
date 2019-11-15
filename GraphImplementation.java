@@ -36,7 +36,7 @@ public class GraphImplementation implements Graph {
 
 		for(int i=0;i<vertices;i++){
 			for(int j=0;j<vertices;j++)
-				sum[i] += graph[i][j];
+				sum[j] += graph[i][j];
 		}
 		System.out.println();
 
